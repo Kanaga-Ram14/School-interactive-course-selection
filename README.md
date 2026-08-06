@@ -39,22 +39,6 @@ The application allows students to:
 
 ---
 
-## 📷 Screenshots
-
-### Login
-
-![Login](images/login.png)
-
-### Dashboard
-
-![Dashboard](images/dashboard.png)
-
-### Course Planning
-
-![Course Planning](images/course-planning.png)
-
----
-
 ## 🚀 Installation
 
 ```bash
