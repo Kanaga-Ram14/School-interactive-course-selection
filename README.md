@@ -1,135 +1,67 @@
+# 🎓 Student Course Selection System
 
-Interactive Course Planning Tool
+## 📖 Overview
+The Student Course Selection System is a React-based web application developed to help postgraduate students plan and manage their course selections efficiently.
 
-WelTec & Whitireia – Postgraduate IT Programmes
+The application allows students to:
 
-Project Overview
+- Login securely
+- View programme information
+- Explore faculty members
+- Plan courses
+- Validate prerequisites
+- Track credits
+- Receive course planning guidance
 
-This project involves the development of a self-guided, interactive web application designed to support postgraduate Information Technology (IT) students at WelTec and Whitireia in planning their courses and study pathways.
+---
 
-The tool addresses common challenges faced by new and international students, particularly those arriving close to programme start dates, by providing clear, structured guidance for course selection that aligns with programme and graduation requirements.
+## ✨ Features
 
-Project Aim
+- Secure Login
+- Student Dashboard
+- Programme Information
+- Faculty Information
+- Interactive Course Planning
+- Credit Validation
+- Prerequisite Checking
+- Responsive User Interface
 
-The aim of this project is to improve the course planning and enrolment experience for postgraduate IT students by enabling them to:
+---
 
-Understand programme structures and pathways
+## 🛠 Technologies Used
 
-Select valid course combinations
+- React
+- JavaScript
+- HTML5
+- CSS3
+- React Router
+- Git & GitHub
 
-Plan their study in advance of enrolment
+---
 
-Target Users
+## 📷 Screenshots
 
-New postgraduate IT students (Postgraduate Diploma & Master of IT)
+### Login
 
-Programme Managers and academic staff (admin users)
+![Login](images/login.png)
 
-Key Features
-Student-Facing Features
+### Dashboard
 
-Step-by-step guided course planning tailored to the selected programme
+![Dashboard](images/dashboard.png)
 
-Clear course information including:
+### Course Planning
 
-Credit values
+![Course Planning](images/course-planning.png)
 
-Prerequisites
+---
 
-Trimester availability
+## 🚀 Installation
 
-Learning outcomes
+```bash
+git clone https://github.com/Kanaga-Ram14/School-interactive-course-selection.git
 
-Tutor introduction videos embedded within course pages
+cd School-interactive-course-selection
 
-Real-time validation of:
+npm install
 
-Credit totals
-
-Compulsory and elective requirements
-
-Programme rules
-
-Support for MIT pathways:
-
-Coursework-only
-
-Applied Research Project (ARP)
-
-Thesis
-
-Interactive alerts for invalid selections
-
-Embedded glossary and help pop-ups
-
-Customised study plan builder
-
-Ability to save, print, and submit a draft study plan
-
-Admin-Facing Features
-
-Admin module for managing:
-
-Courses
-
-Programmes
-
-Pathways
-
-Rules and prerequisites
-
-Ability to add, edit, or remove:
-
-Course details
-
-Video links
-
-Pathway rules
-
-Role-based access control for authorised staff
-
-Deliverables
-
-Functional student-facing course planning tool
-
-Course information module
-
-Pilot implementation and testing report
-
-Target users: New postgraduate students
-
-Programmes supported:
-
-Postgraduate Diploma in IT
-
-Master of Information Technology
-
-Focus on pre-arrival course planning and pathway guidance
-
-Expected Outcomes
-
-Improved student experience and confidence in course selection
-
-Reduced last-minute enrolment changes
-
-Greater accuracy and consistency in study plans
-
-Scalable platform for future programmes and departments
-
-Technologies Used
-
-React.js – Front-end framework for building an interactive and responsive user interface
-
-MySQL – Relational database for storing course, programme, pathway, and user data
-
-CSS-Style
-
-(Additional technologies to be added as development progresses)
-
-Project Sponsor
-
-School of Innovation, Design and Technology
-
-Client
-
-Programme Managers – Postgraduate IT Programmes
+npm start
